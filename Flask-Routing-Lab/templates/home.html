@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
 <style>
-    
+    .specialid{
+        display: inline-block;
+    }
 </style>
     <meta charset="UTF-8">
     <title>Home</title>
 </head>
 <body>
-<h1>Drugs Shop 101</h1>
-<h2> You can get illegal fun drugs without anyone knowing</h2>
-<img src="static/download.jpeg">
-<img src="static/download(1).jpeg">
-<img src="static/download(2).jpeg">
+<a href="{{url_for('producthtml')}}>Products</a>
+<a href="{{url_for('carthtml')}}> Cart </a>
+<h1>Fun Time</h1>
+<h2> You can get illegal fun stuff without anyone knowing</h2>
+<img id="specialid"
+src="static/download.jpeg">
+<img id="specialid"
+src="static/download(1).jpeg">
 </body>
 </html>
